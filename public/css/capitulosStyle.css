@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'IBM Plex Mono', monospace;
 }
 
-header{
+header {
     background-color: grey;
     font-size: 20px;
     padding: 20px;
 }
 
-.menu-header{
+.menu-header {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -19,7 +19,7 @@ header{
 
 }
 
-.menu-options{
+.menu-options {
     color: black;
     display: flex;
     justify-content: space-around;
@@ -28,31 +28,26 @@ header{
     font-weight: bold;
 }
 
-header img{
+header img {
     width: 120px;
 }
 
-header a{
+header a {
     text-decoration: none;
 }
 
-body{
+body {
     background-color: rgb(29, 29, 29);
     color: white;
 
 }
 
-h1{
+h1 {
     text-align: center;
     margin-top: 30px;
 }
 
-img{
-    max-width: 250px;
-}
-
-
-.temporada{
+.temporada {
     border: solid 2px grey;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -60,23 +55,47 @@ img{
     justify-items: center;
     row-gap: 20px;
     max-width: 60vw;
-    margin: 50px 400px 50px 400px;
+    height: 600px;
+    margin: 50px auto 50px auto;
     text-align: center;
     align-items: center;
 }
 
-.temporada ol{
+.temporada ol {
     margin: 20px 0px 20px 0px;
-    min-width: 160px;
+    width: 300px;
 }
 
-.temporada img{
-    margin: 30px;
+.temporada img {
+    margin: auto;
+    width: 250px;
+    height: 335px;
 }
 
 
 footer{
     background-color: grey;
-    margin: 30px ;
+    margin-top: 30px ;
     text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+footer img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+footer ul{
+    list-style: none;
+    margin-left	: 80px;
+}
+
+footer a{
+    color: black;
 }

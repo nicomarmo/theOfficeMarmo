@@ -17,6 +17,7 @@
     justify-content: space-around;
     flex-direction: row;
     color: white;
+    font-weight: bold;
 }
 
 header img{
@@ -50,6 +51,11 @@ a{
     border: 3px solid burlywood;
 }
 
+.perfil img:hover{
+    box-shadow: 3px 4px 19px 3px rgba(0,0,0,0.73);
+    width: 116px;
+    height: 116px;
+}
 
 .title{
     text-align: center;
@@ -70,4 +76,25 @@ footer{
     background-color: grey;
     margin-top: 30px ;
     text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+footer img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+footer ul{
+    list-style: none;
+    margin-left	: 80px;
+}
+
+footer a{
+    color: black;
 }
