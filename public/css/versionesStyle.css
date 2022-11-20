@@ -4,25 +4,11 @@
     box-sizing: border-box;
     font-family: 'IBM Plex Mono', monospace;
 }
-
-header{
-    background-color: grey;
-    font-size: 20px;
-    padding: 20px;
-}
-
 .menu-header{
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-}
-
-.d{
-    color: black;
-    font-style: oblique;
-    font-weight: 200;
 }
 
 .menu-options{
@@ -38,6 +24,12 @@ header img{
     width: 120px;
 }
 
+.d{
+    color: black;
+    font-style: oblique;
+    font-weight: 200;
+}
+
 header a:hover{
     box-shadow: 4px 6px 16px -10px rgba(0,0,0,0.75);
     color: black;
@@ -46,54 +38,14 @@ header a:hover{
 a{
     text-decoration: none;
 }
-
-h1{
-    margin: 30px;
-    text-align: center;
+header{
+    background-color: grey;
+    font-size: 20px;
+    padding: 20px;
 }
-
-
-
-.cont-momentos{
-    /*background-image: url("../img/mejoresMomentos/pizarra.jpg");*/
-    margin: 30px 300px auto 300px;
-    border: burlywood 3px solid;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.momento img{
-    width: 500px;
-    height: 250px;
-    margin-bottom: 5px;
-}
-
-.momento{
-    margin: 30px auto;
-    text-align: center;
-    color: white;
-}
-
-.momento a{
-    background-color: black;
-    border-radius: 5px;
-    margin: 5px 0px 0px 400px;
-    padding: 3px;
-    text-align: right;
-    color: white;
-}
-
-
-
-
-
-
-
-
 body{
     background-color: rgb(29, 29, 29);
-    color: white
+    color: white;
 }
 footer{
     background-color: grey;
@@ -120,4 +72,29 @@ footer ul{
 
 footer a{
     color: black;
+}
+
+.cajaCentral{
+    border: 3px burlywood solid;
+    margin: 40px 25% 40px 25%;
+    text-align: center;
+}
+
+.cajaCentral p{
+    margin: 30px 70px 30px 70px;
+}
+
+.cajaCentral img{
+    border: 2px burlywood solid;
+    width: 700px;
+    height: 400px;
+}
+
+h1{
+    margin: 20px;
+    font-size: xx-large;
+}
+
+h2{
+    margin: 20px;
 }

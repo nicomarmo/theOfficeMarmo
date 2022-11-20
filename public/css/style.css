@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'IBM Plex Mono', monospace;
 }
 
-header{
+header {
     background-color: grey;
     font-size: 20px;
     padding: 20px;
 }
 
-.menu-header{
+.menu-header {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -19,7 +19,7 @@ header{
 
 }
 
-.menu-options{
+.menu-options {
     color: black;
     display: flex;
     justify-content: space-around;
@@ -28,27 +28,34 @@ header{
     font-weight: bold;
 }
 
-header img{
+header img {
     width: 120px;
 }
 
+header a:hover{
+    box-shadow: 4px 6px 16px -10px rgba(0,0,0,0.75);
+    color: black;
+}
 
-a{
+
+a {
     text-decoration: none;
 }
 
-.parrafoI img, .parrafoD img{
+.parrafoI img, .parrafoD img {
     width: 350px;
     height: 200px;
     margin: auto;
     border: 1px solid burlywood;
 }
 
-.parrafoD p, .parrafoI p{
+.parrafoD p,
+.parrafoI p {
     width: 1030px;
     margin: auto;
 }
-.parrafoI{
+
+.parrafoI {
     display: flex;
     flex-direction: row-reverse;
     margin: 30px 250px 0px 250px;
@@ -57,10 +64,11 @@ a{
     background-color: rgb(71, 71, 71);
     border-radius: 12px;
     padding: 10px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     height: 300px;
 }
-.parrafoD{
+
+.parrafoD {
     display: flex;
     margin: 30px 250px 0px 250px;
     text-align: center;
@@ -68,33 +76,89 @@ a{
     background-color: rgb(71, 71, 71);
     border-radius: 12px;
     padding: 10px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     height: 300px;
 }
 
-.tittle{
+.parrafoC {
+    display: flex;
+    justify-content: center;
+    margin: 30px 250px 0px 250px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    height: 300px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    border: 1px grey solid;
+    border-radius: 12px;
+    text-align: left;
+    background: rgb(105,105,105);
+    background: linear-gradient(0deg, rgba(105,105,105,1) 0%, rgba(0,0,0,1) 100%);
+
+}
+
+form h2{
+    padding: 10px;
+}
+
+.cajita{
+    text-align: center;
+    padding: auto 20px 10px 20px;
+}
+
+.parrafoC input,
+textarea {
+    border-radius: 7px;
+    padding: 4px;
+    margin-top: 4px;
+}
+
+.parrafoC label{
+    display: none;
+}
+
+.parrafoC ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+button{
+    border: solid 1px black;
+    padding: 3px;
+    background-color: rgb(167, 167, 167);
+    border-radius: 7px;
+    font-style: bold;
+}
+
+.tittle {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.foto-central{
+.foto-central {
     width: 100%;
     border-top: 3px solid rgb(29, 29, 29);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-h1{
+h1 {
     display: none;
 }
 
-body{
+body {
     background-color: rgb(29, 29, 29);
     color: white
 }
-footer{
+
+footer {
     background-color: grey;
-    margin-top: 30px ;
+    margin-top: 30px;
     text-align: center;
     color: black;
     display: flex;
@@ -104,17 +168,17 @@ footer{
     padding: 20px;
 }
 
-footer img{
+footer img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
 }
 
-footer ul{
+footer ul {
     list-style: none;
-    margin-left	: 80px;
+    margin-left: 80px;
 }
 
-footer a{
+footer a {
     color: black;
 }

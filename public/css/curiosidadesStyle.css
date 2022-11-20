@@ -28,10 +28,20 @@ header{
     font-weight: bold;
 }
 
+.d{
+    color: black;
+    font-style: oblique;
+    font-weight: 200;
+}
+
 header img{
     width: 120px;
 }
 
+header a:hover{
+    box-shadow: 4px 6px 16px -10px rgba(0,0,0,0.75);
+    color: black;
+}
 
 a{
     text-decoration: none;
